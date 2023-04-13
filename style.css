@@ -7,12 +7,14 @@
 }
 
 body{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
     background-color: rgb(255, 255, 255);
     overflow-x: hidden;
 }
+html{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 
+}
 
 .login{
     color: white;
@@ -32,6 +34,7 @@ nav{
 
 }
 h1{
+    text-transform: uppercase;
     display: block;
     font-size: 80px;
     margin-block-start: 0.67em;
@@ -42,6 +45,10 @@ h1{
 .podnadpis--blue{
     text-transform: uppercase;
     font-size: 41px;
+    color: #0078EF;
+}
+
+#blue{
     color: #0078EF;
 }
 
@@ -116,6 +123,8 @@ h1{
     color: rgb(0, 0, 0);
 }
 .header-img {
+    margin: 0;
+    padding: 0;
     position: relative;
     height: 35vh;
     width: 100%;
@@ -136,11 +145,14 @@ h1{
     padding-right: 20px;
   }
 
-.header-main span{
+.small-text{
     font-size: 30px;
     display: block;
     -webkit-text-stroke: 2px black;   
 }
+
+
+
 
 
 
@@ -159,7 +171,7 @@ h1{
 }
 
 .postavy{
-    display: inline-grid;
+    display: inline-block;
     width: 240px;
     height: 435px;
     object-fit: cover;
@@ -172,11 +184,14 @@ h1{
 }
 
 .galerie{
-    display: inline-grid;
+    display: inline-block;
     width: 228px;
     height: 228px;
     object-fit: cover;
 }
+
+
+
 
 
 

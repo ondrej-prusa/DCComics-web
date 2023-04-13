@@ -28,26 +28,30 @@
             <ion-icon name="menu-outline"></ion-icon>
         </label>
 
-        <ul class="nav-list">
-            <li><a class="active" href="index.html">úvod</a></li>
-            <li><a href="index.html">komixy</a></li>
-            <li><a href="index.html">filmy</a></li>
-            <li><a href="index.html">novinky</a></li>
-            <li><a href="index.html">galerie</a></li>
-            <li><a href="index.html">kontakt</a></li>
-        </ul>
+        <menu class="nav-list">
+            <li><a class="active" href="index.html#uvod">úvod</a></li>
+            <li><a href="index.html#komixy">komixy</a></li>
+            <li><a href="index.html#filmy">filmy</a></li>
+            <li><a href="index.html#novinky">novinky</a></li>
+            <li><a href="index.html#galerie">galerie</a></li>
+            <li><a href="index.html#kontakt">kontakt</a></li>
+        </menu>
     </nav>
 
     <div class="header">
         <img class="header-img" src="./images/header-bg.jpg" alt="batman">
-        <h1 class="header-main">DC COMICS
-            <span>BATMAN: ADVENTURE CONTINUES</span>
+        <h1 class="header-main"><span id="blue">DC</span> COMICS
+            <span class="small-text">batman: adventure continues</span>
         </h1>
     </div>
 </header>
 
 
-<section class="section section__postavy">
+
+
+
+
+<section class="section section__postavy" id="uvod">
     <h2 class="podnadpis--blue">postavy</h2>
     <div class="container section__postavy--container">
         <img class="postavy" src="./images/superman-02.jpg" alt="superman">
@@ -60,7 +64,7 @@
 
 
 
-<section class="section section__komixy">
+<section class="section section__komixy" id="komixy">
     <h2 class="podnadpis--white">komixy</h2>
     <div class="container section__komixy--container">
         <img class="komixy" src="./images/komiks-1.jpg" alt="komix">
@@ -71,7 +75,7 @@
 </section>
 
 
-<section class="section section__novinky">
+<section class="section section__novinky" id="novinky">
     <h2 class="podnadpis--blue">novinky</h2>
     <div class="novinky--1">
         <img class="novinky" src="./images/batman.jpg" alt="batman">
@@ -91,7 +95,7 @@
 
 
 
-<section class="section section__galerie">
+<section class="section section__galerie" id="galerie">
     <h2 class="podnadpis--blue">galerie</h2>
     <div>
         <img class="galerie" src="./images/komiks-2.jpg" alt="batman">
@@ -114,7 +118,7 @@
 
 
 
-<footer class="section section__kontakt">
+<footer class="section section__kontakt" id="kontakt">
     <h2 class="podnadpis--white">kontakt</h2>
     <p class="footer--warning">Upozornění</p>
     <p class="footer--warning__text">Všechny fotografie a obrázky kradeny s dobrým úmyslem vytvořit domácí úkol.
