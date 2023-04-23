@@ -45,8 +45,8 @@
 
     <div class="header">
         <img class="header__img" src="./images/header-bg.jpg" alt="Stojící batman, za ním je měsíc a červené pozadí.">
-        <h1 class="header header--bigtext"><span id="blue">DC</span>COMICS
-            <span class="header header-smalltext">batman: adventure continues</span>
+        <h1 class="header__text header__text--big"><span id="blue">DC</span>COMICS
+            <span class="header__text header__text--small">batman: adventure continues</span>
         </h1>
     </div>
 </header>
@@ -63,8 +63,8 @@
     }
 </script>
 <section class="section" id="uvod">
-    <h2 class="podnadpis--blue">postavy</h2>
-    <div class="container section__postavy--container">
+    <div class="wrapper">
+        <h2 class="podnadpis">postavy</h2>
         <figure>
             <img src="./images/superman-02.jpg" alt="Supreman v kostýmu, za ním je nebe.">
             <figcaption>superman</figcaption>
@@ -89,9 +89,9 @@
 </section>
 
 
-<section class="section" id="komixy">
-    <h2 class="podnadpis">komixy</h2>
-    <div class="container section__komixy--container">
+<section class="section section--black" id="komixy">
+    <div class="wrapper">
+        <h2 class="podnadpis podnadpis--white">komixy</h2>
         <figure>
             <img src="./images/komiks-1.jpg" alt="Obal od detective comics.">
             <figcaption>detective comics #356</figcaption>
@@ -113,94 +113,94 @@
 
 
 <section class="section" id="novinky">
-    <h2 class="podnadpis">novinky</h2>
-    <figure class="novinka">
-        <img class="novinka" src="./images/batman.jpg" alt="Obal od komixu: batman: the adventure continue.">
-        <figcaption><a href="#">Batman: The Adventures Continue vychází online 1. května</a></figcaption>
-        <p>Z vizionářského týmu stojícího za Batmanem: Animovaná řada, která se v současné době streamuje na DC UNIVERSE,
-         přichází zcela nové příběhy zasazené do tohoto klíčového animovaného světa! Batman: The Adventures Continue,
-         nová, první digitální komiksová serie DC, 
-         kterou napsali Paul Dini a Alan Burnett, producenti původní animované…</p>
-         <footer>
-        <div class="novinka__datum--left">
-            <p><time datetime="2020-04-08">8. 4. 2020</time>| Profesor X&nbsp;&nbsp;&nbsp;</p>
-        </div>
-        <div class="novinka__footer--right">
-            <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
-            <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
-        </div>
-
-
-        </footer>
-    </figure>
-    <figure class="novinka">
-        <img class="novinka" src="./images/stargirl.jpg" alt="Obal k filmu: stargirl.">
-        <figcaption><a href="#">DC Universe oznamuje charaktery uváděné ve Stargirl DC</a></figcaption>
-        <p>Z vizionářského týmu stojícího za Batmanem: Animovaná řada, která se v současné době streamuje na DC UNIVERSE,
+    <div class="wrapper">
+        <h2 class="podnadpis">novinky</h2>
+        <div class="novinka">
+            <img class="novinka__img" src="./images/batman.jpg" alt="Obal od komixu: batman: the adventure continue.">
+            <p class="novinka__text"><a href="#">Batman: The Adventures Continue vychází online 1. května</a></p>
+            <p>Z vizionářského týmu stojícího za Batmanem: Animovaná řada, která se v současné době streamuje na DC UNIVERSE,
             přichází zcela nové příběhy zasazené do tohoto klíčového animovaného světa! Batman: The Adventures Continue,
-            nová, první digitální komiksová serie DC,
+            nová, první digitální komiksová serie DC, 
             kterou napsali Paul Dini a Alan Burnett, producenti původní animované…</p>
             <footer>
-            <div class="novinka__footer--left">
-                <p><time datetime="2020-01-08">1. 4. 2020</time>| Avengers sh!t&nbsp;&nbsp;&nbsp;</p>
+            <div class="novinka__datum--left">
+                <p><time datetime="2020-04-08">8. 4. 2020</time>| Profesor X&nbsp;&nbsp;&nbsp;</p>
             </div>
             <div class="novinka__footer--right">
                 <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
                 <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
             </div>
             </footer>
-    </figure>
+        </div>
+        <div class="novinka">
+            <img class="novinka__img" src="./images/stargirl.jpg" alt="Obal k filmu: stargirl.">
+            <p class="novinka__text"><a href="#">DC Universe oznamuje charaktery uváděné ve Stargirl DC</a></p>
+            <p>Z vizionářského týmu stojícího za Batmanem: Animovaná řada, která se v současné době streamuje na DC UNIVERSE,
+                přichází zcela nové příběhy zasazené do tohoto klíčového animovaného světa! Batman: The Adventures Continue,
+                nová, první digitální komiksová serie DC,
+                kterou napsali Paul Dini a Alan Burnett, producenti původní animované…</p>
+                <footer>
+                <div class="novinka__footer--left">
+                    <p><time datetime="2020-01-08">1. 4. 2020</time>| Avengers sh!t&nbsp;&nbsp;&nbsp;</p>
+                </div>
+                <div class="novinka__footer--right">
+                    <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                </div>
+                </footer>
+        </div>
+    </div>
 </section>
 
 
 
-<section class="section" id="galerie">
-    <h2 class="podnadpis">galerie</h2>
-    <div>
+<section class="section section--black" id="galerie">
+    <div class="wrapper">
+        <h2 class="podnadpis podnadpis--white">galerie</h2>
         <div class="img-responsive">
-            <img src="./images/komiks-2.jpg" alt="Obal od komixu: batman: the adventure continue.">
+            <a href="#"><img src="./images/komiks-2.jpg" alt="Obal od komixu: batman: the adventure continue."></a>
         </div>
         <div class="img-responsive">
-            <img src="./images/komiks-3.jpg" alt="Obal od komixu: justice league of america.">
+            <a href="#"><img src="./images/komiks-3.jpg" alt="Obal od komixu: justice league of america."></a>
         </div>
         <div class="img-responsive">
-            <img src="./images/komiks-4.jpg" alt="Obal od komixu: love is a battlefield.">
+            <a href="#"><img src="./images/komiks-4.jpg" alt="Obal od komixu: love is a battlefield."></a>
         </div>
         <div class="img-responsive">
-            <img src="./images/stargirl.jpg" alt="Obal k filmu: stargirl.">
+            <a href="#"><img src="./images/stargirl.jpg" alt="Obal k filmu: stargirl."></a>
         </div>
         <div class="img-responsive">
-            <img src="./images/ironman.jpg" alt="Ironman, za ním černé pozadí.">
+            <a href="#"><img src="./images/ironman.jpg" alt="Ironman, za ním černé pozadí."></a>
         </div>
         <div class="img-responsive">
-            <img src="./images/superman-02.jpg" alt="Supreman v kostýmu, za ním je nebe.">
+            <a href="#"><img src="./images/superman-02.jpg" alt="Supreman v kostýmu, za ním je nebe."></a>
         </div>
         <div class="img-responsive">
-            <img src="./images/aquaman.jpg" alt="Aquaman politý vodou.">
+            <a href="#"><img src="./images/aquaman.jpg" alt="Aquaman politý vodou."></a>
         </div>
         <div class="img-responsive">
-            <img src="./images/flash.jpg" alt="Flash, za kterým je červená obloha.">
+            <a href="#"><img src="./images/flash.jpg" alt="Flash, za kterým je červená obloha."></a>
         </div>
         <div class="img-responsive">
-            <img src="./images/wonderwoman.jpg" alt="Wonderwoman v akci.">
+            <a href="#"><img src="./images/wonderwoman.jpg" alt="Wonderwoman v akci."></a>
         </div>
         <div class="img-responsive">
-            <img src="./images/batman.jpg" alt="Batman, za ním modré pozadí.">
+            <a href="#"><img src="./images/batman.jpg" alt="Batman, za ním modré pozadí."></a>
         </div>
         <div class="img-responsive">
-            <img src="./images/superman-03.jpg" alt="Supreman v kostýmu, za ním je nebe.">
+            <a href="#"><img src="./images/superman-03.jpg" alt="Supreman v kostýmu, za ním je nebe."></a>
         </div>
         <div class="img-responsive">
-            <img src="./images/superman.jpg" alt="Obal od: man of steel.">
+            <a href="#"><img src="./images/superman.jpg" alt="Obal od: man of steel."></a>
         </div>
         <div class="img-responsive">
-            <img src="./images/komiks-1.jpg" alt="Obal od detective comics.">
+            <a href="#"><img src="./images/komiks-1.jpg" alt="Obal od detective comics."></a>
         </div>
         <div class="img-responsive">
-            <img src="./images/komiks-2.jpg" alt="Obal od komixu: batman: the adventure continue.">
+            <a href="#"><img src="./images/komiks-2.jpg" alt="Obal od komixu: batman: the adventure continue."></a>
         </div>
         <div class="img-responsive">
-            <img src="./images/komiks-3.jpg" alt="Obal od komixu: justice league of america.">
+            <a href="#"><img src="./images/komiks-3.jpg" alt="Obal od komixu: justice league of america."></a>
         </div>
     </div>
 </section>
@@ -211,7 +211,7 @@
     <img class="footer__img" src="./images/footer-bg.jpg" alt="Komixové postavy">
     <h2 class="podnadpis">kontakt</h2>
     <p class="footer__warning"><strong>Upozornění</strong></p>
-    <p class="footer__warning__text">Všechny fotografie a obrázky kradeny s dobrým úmyslem vytvořit domácí úkol.
+    <p class="footer__text">Všechny fotografie a obrázky kradeny s dobrým úmyslem vytvořit domácí úkol.
         My je nebudeme šířit dál, jelikož se jednalo o zločin. A Batman se neptá. Rozkaz zněl jasně;)</p>
     <div class="footer__img">
         <img src="./images/harley.png" alt="Harley držící kladivo.">
