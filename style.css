@@ -11,19 +11,15 @@ html{
 .hlavicka{
     color: white;
     font-weight: 400;
-    height: 25px;
+    height: auto;
     width: 100%;
     background-color:#0078EF;
 }
 
 .hlavicka li a{
     color: #ffffff;
-    font-size: 10px;
+    font-size: 17px;
     text-decoration: none;
-}
-
-.hlavicka a:hover{
-    color: #000000;
 }
 .title{
     display: flex;
