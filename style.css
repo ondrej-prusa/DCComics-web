@@ -1,17 +1,16 @@
 body{
     background-color: rgb(255, 255, 255);
-    overflow-x: hidden;
 }
 html{
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 
 }
-a{
-    text-decoration: none;
-}
 p{
     font-weight: 300;
+}
+a:link{
+    text-decoration: none!important;
 }
 .hlavicka{
     color: white;
@@ -23,7 +22,7 @@ p{
 
 .hlavicka li a{
     color: #ffffff;
-    font-size: 17px;
+    font-size: 10px;
     text-decoration: none;
 }
 .title{
@@ -73,6 +72,10 @@ p{
     position: absolute;
     top: 0;
     left: 0;
+    transition: all .2s ease-in-out;
+}
+.logo__content:hover{
+    transform: scale(1.1);
 }
 .section{
     margin-bottom: 30px;
@@ -100,6 +103,7 @@ figcaption{
 .footer{
     background-image: url(./images/footer-bg.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 .footer__text{
     color: #ffffff;
@@ -116,13 +120,12 @@ figcaption{
     bottom: 0;
 }
 
-.wrapper{
-    margin-left: 20px;
-    margin-right: 20px;
+.wrapper, .galerie{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    padding: 1em;
+    margin-bottom: 3em;
 }
 
 .novinka{
@@ -149,9 +152,6 @@ figcaption{
     color: #666666;
     ;
 }
-/*/
-
-/*/
 
 .header {
     background-color: white;
@@ -184,9 +184,7 @@ menu{
 }
 
 .menu a {
-    text-decoration: none;
     color: inherit;
-    border-bottom: 1px solid currentColor;
     text-transform: uppercase;
 }
 .hamburger {
@@ -217,9 +215,14 @@ menu{
 @media screen and (min-width:768px) {
     .wrapper{
         display: flex;
-        /*/flex-direction: row;/*/
+        flex-direction: row;
         justify-content: center;
         align-items: center;
+        flex-wrap: wrap;
+        gap: 0px;
+    }
+    .galerie{
+        display: flex;
     }
     .menu{
         text-decoration: none;
@@ -237,7 +240,7 @@ menu{
         height: 100%;
         }
 
-    .menu a:hover, .active{
+    .menu a:hover{
         color: #0078EF;
     }
     .hamburger-menu li{
@@ -253,6 +256,23 @@ menu{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+    }
+    .hlavicka__item{
+        display: flex;
+        flex-direction: row;
+    }
+
+
+
+
+
+
+
+    .novinka{
+        padding-left: 0px;
+    }
+    .novinka__img{
+        margin-top: 0px;
     }
 }
 
