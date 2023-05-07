@@ -125,7 +125,14 @@ figcaption{
     right: 0;
     bottom: 0;
 }
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 
+
+}
 .wrapper, .galerie{
     display: flex;
     flex-direction: column;
@@ -277,7 +284,9 @@ menu{
         text-align: right;
     }
 
+    .podnadpis:hover{
 
+    }
 
 
 
