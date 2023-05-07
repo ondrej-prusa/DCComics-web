@@ -32,7 +32,8 @@ a:link{
     padding-bottom: 20px;
     margin-bottom: 55px;
     background-image:url(./images/header-bg.jpg);
-    background-position: center;
+    background-position: 0 5%;
+    background-size: cover;
     background-repeat: no-repeat;
     align-items: center;
 }
@@ -86,6 +87,11 @@ a:link{
     height: 435px;
     object-fit: cover;
 }
+.komixy{
+    width: 290px;
+    height: 439px;
+    object-fit: cover;
+}
 .img-responsive{
     width: 228px;
     height: 228px;
@@ -124,8 +130,6 @@ figcaption{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 1em;
-    margin-bottom: 3em;
 }
 
 .novinka{
@@ -219,8 +223,11 @@ menu{
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        gap: 0px;
+        padding-left: 15em;
+        padding-right: 15em;
+
     }
+
     .galerie{
         display: flex;
     }
@@ -240,8 +247,12 @@ menu{
         height: 100%;
         }
 
-    .menu a:hover{
+    .menu a:hover, #active{
         color: #0078EF;
+    }
+   
+    .hlavicka__item:hover{
+        text-decoration: underline solid white;
     }
     .hamburger-menu li{
         display: flex;
@@ -257,12 +268,14 @@ menu{
         flex-direction: row;
         justify-content: space-between;
     }
-    .hlavicka__item{
+    .hlavicka__left{
         display: flex;
         flex-direction: row;
     }
 
-
+    .title__text{
+        text-align: right;
+    }
 
 
 
