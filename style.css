@@ -9,8 +9,8 @@ html{
 p{
     font-weight: 300;
 }
-a:link{
-    text-decoration: none!important;
+a{
+    text-decoration: none;
 }
 .hlavicka{
     color: white;
@@ -139,6 +139,7 @@ figcaption{
     align-items: center;
 }
 
+
 .novinka{
     background-color: #EFEFEF;
     margin-bottom: 30px;
@@ -235,9 +236,20 @@ menu{
 
     }
 
-    .galerie{
-        display: flex;
-    }
+       /*/.galerie {
+           max-width: 90%;
+            margin: auto;
+            justify-content: center;
+            padding-bottom: 2em;
+            display: grid;
+            grid-template-columns: repeat(3, 5em);
+            grid-template-rows: repeat(5, 5em);
+            grid-gap: 0.5em;
+        }
+        .galerie > a {
+            max-width: 5em;
+            max-height: 5em;
+        }/*/
     .menu{
         text-decoration: none;
         background-color: #ffffff;
@@ -283,18 +295,25 @@ menu{
     .title__text{
         text-align: right;
     }
-
-    .podnadpis:hover{
-
-    }
-
-
-
     .novinka{
-        padding-left: 0px;
+        display: flex;
+        align-items: center;
+        height: min-content;
+        max-width: 1300px;
+        margin: auto;
+        justify-content: space-between;
+        margin-bottom:50px ;
+        padding-left: 0;
+        padding-bottom: 0;
+    }
+    .novinka__text{
+        display: flex;
+        flex-direction: column;
+        margin-left: 1em;
+
     }
     .novinka__img{
-        margin-top: 0px;
+        margin-top: 0;
     }
 }
 
