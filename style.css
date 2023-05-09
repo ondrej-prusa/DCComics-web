@@ -172,7 +172,8 @@ figcaption{
     width: 240px;
     height: 240px;
 }
-.novinka__heading{
+.novinka__heading a{
+    color: #000000;
     font-weight: 700;
     font-size: 28px;
     text-decoration: none;
